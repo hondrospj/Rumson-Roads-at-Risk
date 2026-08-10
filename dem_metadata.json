@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Rumson DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Rumson Borough boundary, adaptively resampled to 5.5 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.6758330294724169,
+  "pixelSizeFeet": 5.498139860451817,
+  "adaptiveResolution": true,
+  "width": 4134,
+  "height": 3872,
+  "nodata": -999999,
+  "minMeters": -1.5,
+  "maxMeters": 33.069,
+  "meanMeters": 5.45,
+  "stdDevMeters": 7.349,
+  "minFeet": -4.9212598425000005,
+  "maxFeet": 108.49409448775502,
+  "webMercatorBounds": [
+    -8241836.325046,
+    4915279.0767568825,
+    -8234908.431302161,
+    4921767.902247
+  ],
+  "leafletBounds": [
+    [
+      40.3386754,
+      -74.0376754
+    ],
+    [
+      40.3830822,
+      -73.9754549
+    ]
+  ],
+  "files": {
+    "demCog": "rumson_dem_5ft_cog.tif",
+    "hillshadeCog": "rumson_hillshade_cog.tif",
+    "hillshadePng": "rumson_hillshade.png",
+    "boundaryGeojson": "rumson_boundary.geojson"
+  }
+}
